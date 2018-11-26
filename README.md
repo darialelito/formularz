@@ -1,2 +1,3 @@
 # formularz
-Stworzenie formularza z użyciem JS. W Js utworzenie pierwszej funkcji, która pobiera dane z formularza i wstawia je do paragrafów oraz stworzenie drugiej funkcji usuwającej te dane.
+
+I've made an simple form with JS. First function loads data from the form and put them to the paragraphs, second removes all data.
