@@ -25,3 +25,8 @@ buttonUncheck.onclick = function () {
     document.getElementById('checkPhone').innerHTML = "";
     document.getElementById('checkMessage').innerHTML = "";
 }
+
+let buttonSend = document.getElementById('sendButton');
+buttonSend.onclick = function () {
+    alert('Thanks for sending!');
+}
