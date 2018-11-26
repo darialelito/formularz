@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="contact">
+        <h1>feel free to contact us</h1>
+
+        <div class="contener">
+            <div class="form">
+                <h2>Form</h2>
+                <form action="https://formspree.io/darialelito@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="name" id="inputName">
+                    <input type="text" name="surname" placeholder="surname" id="inputSurname">
+                    <input type="number" name="number" placeholder="phone number" id="inputPhone">
+                    <textarea name="message" cols="20" rows="6" placeholder="message" id="textareaMessage"></textarea>
+                </form>
+            </div>
+
+            <div class="check">
+                <h2>Your check</h2>
+                <p id="checkName"></p>
+                <p id="checkSurname"></p>
+                <p id="checkPhone"></p>
+                <p id="checkMessage"></p>
+            </div>
+
+            <div class="buttons">
+                <h2>Buttons</h2>
+                <button id="clickCheck">check</button>
+                <button id="clickDelete">delete</button>
+                <input type="submit" value="SEND">
+            </div>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+section.contact {
+    position: relative;
+    background-color: #7a839e;
+    height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+    max-height: 600px;
+}
+
+h1 {
+    line-height: 200%;
+    background-color: #423c6d;
+    color: #fef5d8;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    margin: 5px 0 15px;
+    color: #fef5d8;
+    text-transform: uppercase;
+}
+
+.contener {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.form,
+.check,
+.buttons {
+    flex-basis: 30%;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #94b5c2;
+}
+
+.form {
+    /*    background-color: red;*/
+}
+
+.form input,
+textarea {
+    display: block;
+    margin: 5px auto;
+    width: 80%;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #423c6d;
+    border: 0;
+    color: #fef5d8;
+}
+
+.check p {
+    margin-top: 15px;
+    color: #fef5d8;
+    font-size: 22px;
+}
+
+.buttons button,
+input[type="submit"] {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #423c6d;
+    border: 0;
+    color: #fef5d8;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.buttons button:hover,
+input[type="submit"]:hover {
+    background-color: rgba(66, 60, 109, 0.5);
+}
